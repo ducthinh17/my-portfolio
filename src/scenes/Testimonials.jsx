@@ -20,7 +20,7 @@ const Testimonials = () => {
           TESTIMONIALS
         </p>
         <LineGradient width="mx-auto w-2/5" />
-        <p className="mt-10">Here's What US are Saying About My LOVE.</p>
+        <p className="mt-10">Embrace each and every moment of your life, wholeheartedly live it to its fullest potential, and exude the brilliance that comes from a life well-lived. Allow no space for regrets, and let your existence resonate with positivity and fulfillment.</p>
       </motion.div>
 
       {/* TESTIMONIALS */}
