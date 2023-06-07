@@ -25,8 +25,7 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          I have curated a collection of code samples on my GitHub repository that are freely available for you to explore. Feel free to try them out and leverage them in your own projects.
         </p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
