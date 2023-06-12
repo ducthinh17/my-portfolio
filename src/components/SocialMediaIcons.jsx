@@ -9,7 +9,7 @@ const SocialMediaIcons = () => {
       >
         <img alt="linkedin-link" src="../assets/linkedin.png" />
       </a>
-     
+
       <a
         className="hover:opacity-50 transition duration-500"
         href="https://www.facebook.com/ducthinh.pld"
@@ -18,7 +18,14 @@ const SocialMediaIcons = () => {
       >
         <img alt="facebook-link" src="../assets/facebook.png" />
       </a>
-      
+      <a
+        className="hover:opacity-50 transition duration-500"
+        href="https://github.com/ducthinh17"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img alt="facebook-link" src="../assets/git.png" />
+      </a>
     </div>
   );
 };
