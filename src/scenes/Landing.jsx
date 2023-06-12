@@ -13,22 +13,21 @@ const Landing = ({ setSelectedPage }) => {
       {/* IMAGE SECTION */}
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
-          <div
-          className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-[100px]
-          before:w-[500px] before:h-[600px] before:border-2 before:border-blue before:z-[-1]"
-        >
+           <div
+           className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-[50px] before:w-[500px] before:h-[600px] before:border-2 before:border-blue before:z-[-1]"
+           >
             <img
-              alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src="assets/profile-img.png"
-            />
+        alt="profile"
+        className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] rounded-[50px]"
+        src="assets/profile-img.png"
+      />
           </div>
         ) : (
           <img
-            alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src="assets/profile-img.png"
-          />
+      alt="profile"
+      className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-[50px]"
+      src="assets/profile-img.png"
+    />
         )}
       </div>
 

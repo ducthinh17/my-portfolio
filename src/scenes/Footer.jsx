@@ -10,6 +10,7 @@ const Footer = () => {
             Currently Undergoing Upgrades
           </p>
           <p className="font-playfair text-md text-yellow">©2023 DucThinh</p>
+          
         </div>
       </div>
     </footer>
