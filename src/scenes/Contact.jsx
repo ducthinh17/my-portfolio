@@ -52,9 +52,11 @@ const Contact = () => {
             hidden: { opacity: 0, y: 50 },
             visible: { opacity: 1, y: 0 },
           }}
-          className="basis-1/2 flex justify-center"
+          className="relative z-0 ml-20 before:absolute before:-top-32 before:-left-20 before:rounded-t-[300px] before:rounded-b-[20px] before:w-[600px] before:h-[470px] before:border-2 before:border-blue before:z-[-1]"
         >
-          <img src="../assets/contact-image.png" alt="contact" />
+          <img src="../assets/contact-image.png" 
+          className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[600px] md:max-w-[600px] rounded-t-[300px] rounded-b-[20px] h-[470px]"
+          alt="contact" />
         </motion.div>
 
         <motion.div
